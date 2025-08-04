@@ -2,9 +2,9 @@
   "name": "usdt-clone-solana",
   "version": "1.0.0",
   "description": "USDT Clone on Solana with fake pool and trading bot",
-  "main": "scripts/usdt_clone_bot.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node scripts/usdt_clone_bot.js",
+    "start": "node index.js",
     "burn": "node scripts/burn_usdt.js",
     "fake-pool": "node scripts/fake_pool_strategy.js",
     "balance": "node scripts/burn_usdt.js --balance",
