@@ -1,0 +1,14 @@
+runtime: nodejs18
+env: standard
+automatic_scaling:
+  target_cpu_utilization: 0.6
+  min_instances: 1
+  max_instances: 10
+env_variables:
+  NODE_ENV: production
+  SOLANA_RPC_URL: https://api.mainnet-beta.solana.com
+  WALLET_PATH: ./config/solflare_wallet.json
+handlers:
+  - url: /.*
+    script: auto
+    secure: always

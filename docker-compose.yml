@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  usdt-bot:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - SOLANA_RPC_URL=https://api.mainnet-beta.solana.com
+    volumes:
+      - ./config:/app/config
+    restart: unless-stopped
+    
+  fake-pool:
+    build: .
+    command: npm run fake-pool
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./config:/app/config
+    restart: unless-stopped

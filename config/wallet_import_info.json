@@ -1,0 +1,14 @@
+{
+  "tokenMint": "59qfawpS114aAY6wAu9RfZfP9wSShLc15rJSVZ5iGWrt",
+  "name": "Tether USD",
+  "symbol": "USDT",
+  "decimals": 6,
+  "logoURL": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png",
+  "network": "Solana Mainnet",
+  "instructions": {
+    "phantom": "Settings > Add Token > Add Custom Token > 59qfawpS114aAY6wAu9RfZfP9wSShLc15rJSVZ5iGWrt",
+    "solflare": "Settings > Add Custom Token > 59qfawpS114aAY6wAu9RfZfP9wSShLc15rJSVZ5iGWrt",
+    "trust": "Settings > Add Custom Token > 59qfawpS114aAY6wAu9RfZfP9wSShLc15rJSVZ5iGWrt",
+    "slope": "Settings > Add Token > 59qfawpS114aAY6wAu9RfZfP9wSShLc15rJSVZ5iGWrt"
+  }
+}

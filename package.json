@@ -1,0 +1,37 @@
+{
+  "name": "usdt-clone-solana",
+  "version": "1.0.0",
+  "description": "USDT Clone on Solana with fake pool and trading bot",
+  "main": "scripts/usdt_clone_bot.js",
+  "scripts": {
+    "start": "node scripts/usdt_clone_bot.js",
+    "burn": "node scripts/burn_usdt.js",
+    "fake-pool": "node scripts/fake_pool_strategy.js",
+    "balance": "node scripts/burn_usdt.js --balance",
+    "server": "node scripts/health_check.js",
+    "deploy": "node scripts/deploy_to_server.js",
+    "pm2": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop ecosystem.config.js",
+    "pm2:restart": "pm2 restart ecosystem.config.js"
+  },
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.20.1",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@solana/spl-token": "^0.3.9",
+    "@solana/web3.js": "^1.87.0",
+    "base-58": "^0.0.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "pm2": "^5.3.0"
+  },
+  "keywords": [
+    "solana",
+    "usdt",
+    "clone",
+    "trading-bot",
+    "fake-pool"
+  ],
+  "author": "USDT Clone Project",
+  "license": "MIT"
+}

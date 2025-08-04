@@ -1,0 +1,30 @@
+{
+  "token_info": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "total_supply": "1000000000000",
+    "token_address": "EFq6E157UTx3PdSFiRo535Gk6i6Zvjkf3TEqZkBXnJ2j",
+    "token_account": "qxPvn6uM97K9EC4SWhk8F4aEJqPpTy3YDquo6ecqUHe",
+    "owner_wallet": "CQGqaL3djnRbPwTA1RFppzavQyD6QggUFUAwfKp3JR9G"
+  },
+  "network": {
+    "rpc_url": "https://api.mainnet-beta.solana.com",
+    "network": "mainnet-beta"
+  },
+  "bot_settings": {
+    "trading_interval": 30000,
+    "min_volume": 1000,
+    "max_volume": 50000,
+    "price_target": 1.00,
+    "price_variance": 0.02
+  },
+  "burn_settings": {
+    "enabled": true,
+    "burn_authority": "CQGqaL3djnRbPwTA1RFppzavQyD6QggUFUAwfKp3JR9G"
+  },
+  "logo": {
+    "file": "usdt_logo.png",
+    "url": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png"
+  }
+}

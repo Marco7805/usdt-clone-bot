@@ -1,0 +1,30 @@
+{
+  "name": "Tether USD",
+  "symbol": "USDT",
+  "description": "Tether USD (USDT) is a stablecoin pegged to the US Dollar. 1 USDT = 1 USD.",
+  "image": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png",
+  "external_url": "https://tether.to",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Stablecoin"
+    },
+    {
+      "trait_type": "Peg",
+      "value": "USD"
+    },
+    {
+      "trait_type": "Decimals",
+      "value": "6"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+} 
