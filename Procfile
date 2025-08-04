@@ -1,1 +1,1 @@
-web: npm start
+web: node railway_bot.js
